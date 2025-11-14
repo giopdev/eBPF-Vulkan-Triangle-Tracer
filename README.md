@@ -15,11 +15,8 @@ This project uses a combination of eBPF, python, bash, and C to trace a Vulkan t
 sudo pacman -S --needed linux-headers libdrm base-devel iproute2 python-bcc
 ```
 
-**In another terminal**
+**Run the tracer**
 ```sh
 ./src/main.bin
-```
-
-```sh
-./run.sh
+./run.sh # in another terminal
 ```
