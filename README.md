@@ -1,6 +1,6 @@
 # eBPF Vulkan Triangle Tracer
 
-This project uses a combination of eBPF, python, bash, and C to trace a Vulkan triangle program to gain a better understanding of the Linux Graphics Pipeline. The program probes on various syscalls, namely ioctl to trace the user space program state when such syscalls are fired off.
+This project uses a combination of eBPF, python, and bash to trace a Vulkan triangle program to gain a better understanding of the Linux Graphics Pipeline. The program probes on various syscalls, namely ioctl to trace the user space program state when such syscalls are fired off.
 
 ## Example output
 
