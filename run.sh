@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$1" == "1" ]]; then
-    sudo ./triangleTrace.py ./src/main.bin ./src/main.cpp main.bin intel
+    sudo ./scripts/triangleTrace.py ./triangle_example/main.bin ./triangle_example/main.cpp main.bin intel
 else
-    sudo ./triangleTrace.py ./src/main.bin ./src/main.cpp main.bin amd
+    sudo ./scripts/triangleTrace.py ./triangle_example/main.bin ./triangle_example/main.cpp main.bin amd
 fi
