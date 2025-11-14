@@ -17,6 +17,6 @@ sudo pacman -S --needed linux-headers libdrm base-devel iproute2 python-bcc
 
 **Run the tracer**
 ```sh
-./src/main.bin
+./triangle_example/main.bin
 ./run.sh # in another terminal
 ```
